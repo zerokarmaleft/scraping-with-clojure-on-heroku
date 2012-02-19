@@ -3,3 +3,9 @@
     right: 30px;
     bottom: 30px;
 }
+
+.watermark-badge {
+	position: absolute;
+	right: 30px;
+	bottom: 100px;
+}
