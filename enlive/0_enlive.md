@@ -8,10 +8,13 @@
 </div>
 
 !SLIDE
-# concurrency ideas #
+# What is Enlive? #
+* HTML/XML templating library
+  * Built on top of TagSoup
+* selects and transforms HTML/XML
+* CSS selector-based syntax
 
-!SLIDE
-# tasks #
-* downloading HTML per URL (I/O)
-* scraping HTML per page
-* combining results? or just feed them into a database
+<div class="watermark">
+  <img src="Clojure-glyph.svg"/>
+  <div class="watermark-badge">Enlive</div>
+</div>

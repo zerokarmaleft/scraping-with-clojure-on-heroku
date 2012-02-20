@@ -62,8 +62,7 @@
         (sort > [1 56 2 23 45 34 6 43])
         => (56 45 43 34 23 6 2 1)
 
-        (sort-by #(.length %)
-          ["the" "quick" "brown" "fox"])
+        (sort-by #(.length %) ["the" "quick" "brown" "fox"])
         => ("the" "fox" "quick" "brown")
 
 <div class="watermark">
@@ -114,8 +113,8 @@
         (interpose \, ["list" "of" "words"])
         => ("list" \, "of" \, "words")
 
-        (apply str (interpose \, "QWERTY"))
-        => "Q,W,E,R,T,Y"
+        (apply str (interpose \, ["list" "of" "words"]))
+        => "list,of,words"
 
         (use 'clojure.contrib.str-utils)
         (str-join \, ["list" "of" "words"])

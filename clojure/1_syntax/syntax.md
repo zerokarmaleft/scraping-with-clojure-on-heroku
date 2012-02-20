@@ -97,10 +97,10 @@
 # function calls #
 
         (concat [1 2] [3 4])
-        => [1 2 3 4]
+        => (1 2 3 4)
 
         (concat [1 2] [3 4] [5 6])
-        => [1 2 3 4 5 6]
+        => (1 2 3 4 5 6)
         
         (+ 1 2)
         => 3
@@ -145,6 +145,7 @@
         (if hell-froze-over?
             (skate!)
             (roast!))
+
 <div class="watermark">
      <img src="Clojure-glyph.svg"/>
 </div>
@@ -175,6 +176,18 @@
 <div class="watermark">
      <img src="Clojure-glyph.svg"/>
 </div>
+
+!SLIDE
+# java interop, cont'd #
+
+        (new java.net.URL "http://www.google.com")
+        => #<URL http://www.google.com>
+
+        (java.net.URL. "http://www.google.com")
+        => #<URL http://www.google.com>
+
+        (macroexpand '(java.net.URL. "http://www.google.com"))
+        => (new java.net.URL "http://www.google.com")
 
 !SLIDE
 # error handling #

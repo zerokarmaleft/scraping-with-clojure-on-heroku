@@ -3,6 +3,12 @@
 ![Clojure-glyph](Clojure-glyph.svg)
 
 !SLIDE
+![lisp_cycles](lisp_cycles.png)
+<div class="watermark">
+     <img src="Clojure-glyph.svg"/>
+</div>
+
+!SLIDE
 # fundamentals #
 * Lisp
   * (((((zomgwtf parentheses)))))
