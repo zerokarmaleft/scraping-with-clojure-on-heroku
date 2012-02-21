@@ -11,7 +11,7 @@
 
 !SLIDE
 # Resources, cont'd #
-## Creating an HTML resource ##
+## creating an HTML resource ##
 
         (pprint (html-resource
                   (java.net.URL. "http://news.ycombinator.com")))
@@ -30,7 +30,7 @@
 
 !SLIDE
 # Resources, cont'd #
-## Creating an HTML resource ##
+## creating an HTML resource ##
 * Enlive nodes are maps
   * with keys :tag, :attrs, and :content
 * attributes are maps

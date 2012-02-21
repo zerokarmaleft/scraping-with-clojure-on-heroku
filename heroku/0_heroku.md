@@ -14,7 +14,7 @@
 
 !SLIDE
 # Leiningen #
-## Creating a new project ##
+## creating a new project ##
 
         $ lein new scraper
         Created new project in: /Users/zerokarmaleft/scraper
@@ -26,7 +26,7 @@
 
 !SLIDE
 # Leiningen #
-## Edit project.clj ##
+## edit project.clj ##
 
         (defproject scraping "0.0.1-SNAPSHOT"
           :dependencies [[org.clojure/clojure "1.3.0"]
@@ -39,7 +39,7 @@
 
 !SLIDE
 # Leiningen #
-## Fetch dependencies ##
+## fetch dependencies ##
 
         $ lein deps
         ...
@@ -50,7 +50,7 @@
 
 !SLIDE
 # Leiningen #
-## Edit scraper/core.clj ##
+## edit scraper/core.clj ##
 
         (ns scraper.core
           (:gen-class))
@@ -64,7 +64,7 @@
 
 !SLIDE
 # Leiningen #
-## Running ##
+## running locally ##
 
         $ lein run -m scraper.core
         FREE ALL THE DATAS!
@@ -75,7 +75,7 @@
 
 !SLIDE
 # Git #
-## Initialize a new repo ##
+## initialize a new repo ##
 
         $ git init
         $ git add .
@@ -87,7 +87,7 @@
 
 !SLIDE
 # Heroku #
-## Deploy to Cedar ##
+## deploy to cedar ##
 
         $ heroku login
         $ heroku create --stack cedar

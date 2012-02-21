@@ -32,7 +32,7 @@
 
 !SLIDE
 # CSS Selectors, cont'd #
-## Styled HTML ##
+## styled HTML ##
 
         <p>
           <!-- style applied here -->
