@@ -6,7 +6,7 @@
 
 !SLIDE
 # atomic data types #
-* arbitrary precision integers - `1234567897654`
+* arbitrary precision integers - `12345678987654`
 * doubles - `1.234`
 * arbitrary precision doubles - `1.234M`
 * ratios - `22/7`
